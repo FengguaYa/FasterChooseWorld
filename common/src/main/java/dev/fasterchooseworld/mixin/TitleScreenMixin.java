@@ -30,7 +30,7 @@ public abstract class TitleScreenMixin {
         if (Component.translatable("menu.singleplayer").equals(message)) {
             TitleScreen self = (TitleScreen) (Object) this;
             return Button.builder(message,
-                    button -> Minecraft.getInstance().setScreen(new SelectWorldScreen(self)));
+                    button -> Minecraft.getInstance().gui.setScreen(new SelectWorldScreen(self)));
         }
         return Button.builder(message, original);
     }

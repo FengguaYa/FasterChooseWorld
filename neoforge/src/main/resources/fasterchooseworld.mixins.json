@@ -5,7 +5,7 @@
   "client": [
     "TitleScreenMixin",
     "WorldSelectionListMixin",
-    "MinecraftMixin"
+    "GuiMixin"
   ],
   "injectors": {
     "defaultRequire": 1
