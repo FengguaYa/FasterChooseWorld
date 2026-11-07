@@ -5,7 +5,7 @@
   "name": "Faster Choose World",
   "description": "Clicking Singleplayer always opens the world list, even when no world exists.",
   "authors": [
-    "FasterChooseWorld"
+    "FengguaYa"
   ],
   "license": "MIT",
   "icon": "icon.png",

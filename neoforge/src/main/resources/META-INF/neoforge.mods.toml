@@ -2,9 +2,10 @@ license="MIT"
 
 [[mods]]
 modId="fasterchooseworld"
-version="1.0.0"
+version="1.0.1"
 displayName="Faster Choose World"
 logoFile="icon.png"
+authors="FengguaYa"
 description='''
 Clicking Singleplayer always opens the world list, even when no world exists.
 '''

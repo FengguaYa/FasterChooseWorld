@@ -3,7 +3,9 @@
   "package": "dev.fasterchooseworld.mixin",
   "compatibilityLevel": "JAVA_25",
   "client": [
-    "TitleScreenMixin"
+    "TitleScreenMixin",
+    "WorldSelectionListMixin",
+    "MinecraftMixin"
   ],
   "injectors": {
     "defaultRequire": 1
