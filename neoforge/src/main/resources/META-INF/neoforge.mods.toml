@@ -16,13 +16,13 @@ config="fasterchooseworld.mixins.json"
 [[dependencies.fasterchooseworld]]
 modId="neoforge"
 type="required"
-versionRange="[26.2.0,26.3)"
+versionRange="[26.3.0,26.4)"
 ordering="NONE"
 side="CLIENT"
 
 [[dependencies.fasterchooseworld]]
 modId="minecraft"
 type="required"
-versionRange="[26.2,26.3)"
+versionRange="[26.3,26.4)"
 ordering="NONE"
 side="CLIENT"
