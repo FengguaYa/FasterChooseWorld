@@ -1,0 +1,4 @@
+allprojects {
+    group = 'dev.fasterchooseworld'
+    version = '1.0.0'
+}

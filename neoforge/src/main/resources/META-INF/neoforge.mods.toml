@@ -1,0 +1,27 @@
+license="MIT"
+
+[[mods]]
+modId="fasterchooseworld"
+version="1.0.0"
+displayName="Faster Choose World"
+logoFile="icon.png"
+description='''
+Clicking Singleplayer always opens the world list, even when no world exists.
+'''
+
+[[mixins]]
+config="fasterchooseworld.mixins.json"
+
+[[dependencies.fasterchooseworld]]
+modId="neoforge"
+type="required"
+versionRange="[26.1.0,26.2)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.fasterchooseworld]]
+modId="minecraft"
+type="required"
+versionRange="[26.1,26.2)"
+ordering="NONE"
+side="CLIENT"
