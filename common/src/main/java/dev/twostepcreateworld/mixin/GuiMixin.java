@@ -1,4 +1,4 @@
-package dev.fasterchooseworld.mixin;
+package dev.twostepcreateworld.mixin;
 
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.screens.Screen;
