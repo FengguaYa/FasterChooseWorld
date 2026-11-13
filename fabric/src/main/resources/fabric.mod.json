@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "fasterchooseworld",
+  "id": "twostepcreateworld",
   "version": "${version}",
-  "name": "Faster Choose World",
+  "name": "TwoStepCreateWorld",
   "description": "Clicking Singleplayer always opens the world list, even when no world exists.",
   "authors": [
     "FengguaYa"
@@ -12,15 +12,18 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "dev.fasterchooseworld.fabric.FasterChooseWorldFabric"
+      "dev.twostepcreateworld.fabric.TwoStepCreateWorldFabric"
     ]
   },
   "mixins": [
     {
-      "config": "fasterchooseworld.mixins.json",
+      "config": "twostepcreateworld.mixins.json",
       "environment": "client"
     }
   ],
+  "contact": {
+    "issues": "https://github.com/FengguaYa/TwoStepCreateWorld/issues"
+  },
   "depends": {
     "fabricloader": ">=0.20.1",
     "minecraft": ">=26.2 <26.3",
