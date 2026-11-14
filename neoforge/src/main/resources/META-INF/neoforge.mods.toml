@@ -1,26 +1,27 @@
 license="MIT"
 
 [[mods]]
-modId="fasterchooseworld"
-version="1.0.1"
-displayName="Faster Choose World"
+modId="twostepcreateworld"
+version="1.1.0"
+displayName="TwoStepCreateWorld"
 logoFile="icon.png"
 authors="FengguaYa"
+issueTrackerURL="https://github.com/FengguaYa/TwoStepCreateWorld/issues"
 description='''
 Clicking Singleplayer always opens the world list, even when no world exists.
 '''
 
 [[mixins]]
-config="fasterchooseworld.mixins.json"
+config="twostepcreateworld.mixins.json"
 
-[[dependencies.fasterchooseworld]]
+[[dependencies.twostepcreateworld]]
 modId="neoforge"
 type="required"
 versionRange="[26.3.0,26.4)"
 ordering="NONE"
 side="CLIENT"
 
-[[dependencies.fasterchooseworld]]
+[[dependencies.twostepcreateworld]]
 modId="minecraft"
 type="required"
 versionRange="[26.3,26.4)"

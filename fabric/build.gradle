@@ -3,7 +3,7 @@ plugins {
 }
 
 base {
-    archivesName = 'fasterchooseworld-fabric'
+    archivesName = 'twostepcreateworld-fabric'
 }
 
 sourceSets {
